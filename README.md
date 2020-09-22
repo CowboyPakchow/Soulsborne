@@ -16,7 +16,7 @@ python main.py
 ```
 
 ## Contributions
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. Please do not hesitate to contact me for any major changes you would like to discuss about.
 
 Please make sure to update tests as appropriate.
 
