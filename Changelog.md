@@ -6,3 +6,4 @@ vPrerelease
 - Added a Changelog
 - Added main.py file that lists current monsters, special monsters and weapons that are planned for the game
 - Added Pseudcode.py that describes plans for creating the game
+- Modified Pseudocode.py, README.md and main.py
