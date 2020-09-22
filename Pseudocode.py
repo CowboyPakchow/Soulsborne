@@ -70,3 +70,9 @@
 # armor can be sold
 # armor cannot be consumed
 # removing armor resets hp value to base of 30
+
+# Pseudocode ending:
+# display ending based on in game story progression
+# 2 endings and one secret ending
+# after beating the game, display win screen
+# run main.py to restart the game
