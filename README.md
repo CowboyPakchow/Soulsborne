@@ -12,7 +12,7 @@ Python 3.7 is needed to play this game. Click on [Python 3.7](https://www.python
 ## Run the program
 
 ```python
-python game.py
+python main.py
 ```
 
 ## Contributions
