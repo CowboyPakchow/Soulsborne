@@ -1,6 +1,7 @@
 # Soulsborne
 
 Soulsborne is a python text-based adventure game set in a World of Fantasy. 
+The player's objective is to complete all 3 floors and escape the dungeon.
 
 
 ## Installation
