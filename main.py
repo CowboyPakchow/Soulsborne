@@ -1,7 +1,7 @@
 # Course: CS 30
 # Period: 1
-# Date Created: 20/09/18
-# Date Modified: 20/09/18
+# Date Created: 20/09/21
+# Date Modified: 20/09/21
 # Name: Michael Nguyen
 # Description: Michael's code for his RPG Numerical List assignment.
 
