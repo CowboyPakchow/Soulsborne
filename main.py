@@ -3,7 +3,7 @@
 # Date Created: 20/09/21
 # Date Modified: 20/09/21
 # Name: Michael Nguyen
-# Description: Michael's code for his RPG Numerical List assignment.
+# Description: Soulsborne Prerelease (Numerical List)
 
 # Variables for weapons, monsters and special monsters.
 weapons = ['Dagger', 'Fists', 'Broadsword', 'Bow']
