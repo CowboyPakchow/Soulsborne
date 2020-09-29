@@ -8,3 +8,4 @@ vPrerelease
 - Added Pseudocode.py that describes plans for creating the game
 - Removed Pseudocode.py (Different repository)
 - Updated main.py and README files
+- Updated main.py file by adding Dictionaries for characters, locations and inventory
