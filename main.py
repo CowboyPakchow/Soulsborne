@@ -48,7 +48,7 @@ print(f"\n{character.title()}: {characters[character]}")
 print(f"The {character.title()} is the final boss.")
 print(f"The {character.title()} has 55 hit points.")
 
-# Description of Secret Floor Boss
+# Description of Secret Floor Boss.
 character = 'secret floor boss'
 print(f"\n{character.title()}: {characters[character]}")
 print(f"The {character.title()} is an optional secret boss.")
