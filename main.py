@@ -134,7 +134,7 @@ print(f"You are on an {tile.title()} (IT): {tiles[tile]}")
 print()
 print()
 
-# Nested dictionary of the inventory
+# Nested dictionary of the inventory.
 inventory = {
     'long sword': {
         'damage': '10',
