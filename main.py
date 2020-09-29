@@ -160,11 +160,12 @@ inventory = {
 }
 
 # Defining each item in the player's starting inventory.
+print("Hero's Inventory:")
 for inventory, inventory_info in inventory.items():
-    print(f"\n{inventory.title()}:")
+    print(f"\n* {inventory.title()}:")
     description = (inventory_info['description'])
-    print(f"  Description: {description}")
+    print(f"    Description: {description}")
     damage = (inventory_info['damage'])
-    print(f"  Damage: {damage}")
+    print(f"    Damage: {damage}")
     protection = (inventory_info['protection'])
-    print(f"  Protection: {protection}")
+    print(f"    Protection: {protection}")
