@@ -103,25 +103,24 @@ print()
 inventory = {
     'long sword': {
         'damage': 10,
-        'description': 'A standard sword',
+        'description': 'A standard sword.',
         'protection': 0,
     },
     'basic shield': {
         'damage': 0,
-        'description': 'Shield for blocking',
+        'description': 'Shield for blocking.',
         'protection': 10,
     },
     'fire spell': {
         'damage': 10,
-        'description': 'Standard magic spell',
+        'description': 'Standard magic spell.',
         'protection': 0,
     },
     'gold coins': {
         'damage': 0,
-        'description': 'Currency for bartering',
+        'description': 'Currency for bartering.',
         'protection': 0,
     }
-
 }
 
 # Looping each item in player's inventory.
