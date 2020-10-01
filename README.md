@@ -12,7 +12,8 @@ Python 3.7 is needed to play this game. Click on [Python 3.7](https://www.python
 ## Run the program
 
 ```python
-python main.py
+python main.py to run main.py
+python SimpleMenu.py to run simplemenu
 ```
 
 ## Contributions
