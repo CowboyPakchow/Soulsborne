@@ -1,3 +1,11 @@
+# Course: CS 30
+# Period: 1
+# Date Created: 20/09/21
+# Date Modified: 20/10/
+# Name: Michael Nguyen
+# Description: SimpleMenu detailing some actions in Soulsborne.
+
+
 # Nested dictionary of possible moving actions.
 direction = {
   'north': {
@@ -30,6 +38,8 @@ action = {
     'wander': 'You explore around.',
   },
 }
+
+print("Valid actions for current location:")
 
 # Printing Direction list.
 print("Which direction would you like to move in?: ")
