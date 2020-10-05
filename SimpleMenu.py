@@ -1,9 +1,9 @@
 # Course: CS 30
 # Period: 1
 # Date Created: 20/09/21
-# Date Modified: 20/10/
+# Date Modified: 20/10/05
 # Name: Michael Nguyen
-# Description: SimpleMenu detailing some actions in Soulsborne.
+# Description: SimpleMenu updated for Continuous Gameplay.
 
 
 # Nested dictionary of possible moving actions.
@@ -39,6 +39,7 @@ action = {
   },
 }
 
+
 print("Valid actions for current location:")
 
 # Printing Direction list.
@@ -52,8 +53,13 @@ for action, action_info in action.items():
         print(f"* {action.title()}")
 
 # Various actions the player can take. Action is looped.
-while True:
+# Added an option to quit the game using an active flag.
+active = True
+while active:
     prompt = input("\nAction: ").lower()
+
+    if prompt == 'quit':
+        active = False
 
     if prompt == 'north':
         print("You move North.")
@@ -71,5 +77,7 @@ while True:
         print("You heal the damage taken.")
     elif prompt == 'wander':
         print("You wander and explore around.")
+    elif prompt == 'quit':
+        print("You have quit the game.")
     else:
         print("That is an invalid action!")
