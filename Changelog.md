@@ -10,3 +10,5 @@ vPrerelease
 - Updated main.py and README files
 - Updated main.py file by adding Dictionaries for characters, locations and inventory
 - Added a SimpleMenu
+- Modified SimpleMenu to add quit option
+   - Deleted Nested Dictionary to shorten code with only Loops
