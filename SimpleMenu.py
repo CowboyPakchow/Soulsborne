@@ -1,62 +1,31 @@
 # Course: CS 30
 # Period: 1
 # Date Created: 20/09/21
-# Date Modified: 20/10/05
+# Date Modified: 20/10/06
 # Name: Michael Nguyen
 # Description: SimpleMenu updated for Continuous Gameplay.
 
 
-# Nested dictionary of possible moving actions.
-direction = {
-  'north': {
-    'direction': 'You move North.',
-  },
-  'south': {
-    'direction': 'You move South.',
-  },
-  'east': {
-    'direction': 'You move East.',
-  },
-  'west': {
-    'direction': 'You move West.',
-  },
-}
-
-
-# Nested dictionary of possible character actions.
-action = {
-  'attack': {
-    'attack': 'You attack the enemy.',
-  },
-  'defend': {
-    'defend': 'You stand your ground and defend.',
-  },
-  'heal': {
-    'heal': 'You heal the damage taken.',
-  },
-  'wander': {
-    'wander': 'You explore around.',
-  },
-}
-
-
 print("Valid actions for current location:")
+print("Type in 'quit' to quit out of the game.")
 
-# Printing Direction list.
+# Looping and printing list of directions.
 print("Which direction would you like to move in?: ")
-for direction, direction_info in direction.items():
-        print(f"* {direction.title()}")
+directions = ['* North', '* South', '* East', '* West']
+for pole in directions:
+    print(pole)
 
-# Printing Action list.
+# Looping and printing list of actions.
 print("\nYour move, what is your action?: ")
-for action, action_info in action.items():
-        print(f"* {action.title()}")
+actions = ['* Attack', '* Defend', '* Heal', '* Wander', '* Quit']
+for action in actions:
+    print(action)
 
-# Various actions the player can take. Action is looped.
+# Various actions the player can take. Actions are looped.
 # Added an option to quit the game using an active flag.
 active = True
 while active:
-    prompt = input("\nAction: ").lower()
+    prompt = input("\nAction: ").lower().strip()
 
     if prompt == 'quit':
         active = False
@@ -80,4 +49,4 @@ while active:
     elif prompt == 'quit':
         print("You have quit the game.")
     else:
-        print("That is an invalid action!")
+        print("That is an invalid action")
