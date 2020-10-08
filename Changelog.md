@@ -14,3 +14,4 @@ vPrerelease
    - Deleted Nested Dictionary to shorten code with only Loops
 - Added a list of enemies to Soulsborne.
 - Added a randomized map for each floor.
+- Added player character inventory with starting items in it.

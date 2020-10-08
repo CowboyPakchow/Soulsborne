@@ -5,6 +5,7 @@
 # Name: Michael Nguyen
 # Description: Soulsborne dictionaries of characters, locations and inventory.
 
+
 # Nested dictionary of characters in Soulsborne.
 characters = {
     'hero': {
