@@ -12,5 +12,5 @@ vPrerelease
 - Added a SimpleMenu
 - Modified SimpleMenu to add quit option
    - Deleted Nested Dictionary to shorten code with only Loops
-- Added enemies.py for enemies.
+- Added a list of enemies to Soulsborne.
 - Added a randomized map for each floor.
