@@ -6,6 +6,7 @@
 # Description: SimpleMenu updated for Continuous Gameplay.
 
 
+
 print("Valid actions for current location:")
 print("Type in 'quit' to quit out of the game.")
 
@@ -49,4 +50,4 @@ while active:
     elif prompt == 'quit':
         print("You have quit the game.")
     else:
-        print("That is an invalid action")
+        print("That is an invalid action!")
