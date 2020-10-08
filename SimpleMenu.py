@@ -50,4 +50,4 @@ while active:
     elif prompt == 'quit':
         print("You have quit the game.")
     else:
-        print("That is an invalid action!")
+        print("That is an invalid action.")
