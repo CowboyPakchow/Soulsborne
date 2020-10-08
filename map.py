@@ -35,7 +35,7 @@ def generate_map(list):
     return map
 
 
-# Printing the map with each floor.
+# Printing the map with each floor. Formats in rows and columns.
 def print_map(dictionary):
     for key in dictionary:
         map = dictionary[key]
