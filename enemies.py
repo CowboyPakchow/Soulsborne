@@ -79,7 +79,7 @@ class Troll(Enemy):
         self.damage = 15
 
 
-# Berserkerlot optional boss detailing its hp and damage 
+# Berserkerlot optional boss detailing its hp and damage
 class Beserkerlot(Enemy):
     def __init__(self):
         self.name = "Pinwheel"
@@ -142,6 +142,7 @@ class Soul_of_Cinder(Enemy):
 
 # Secret Floor Enemies
 
+
 # Vessel enemy detailing its hp and damage.
 class Vessel(Enemy):
     def __init__(self):
@@ -164,6 +165,6 @@ class King_Manus_The_First_Hero(Enemy):
 class The_Holy_Grail(Enemy):
     def __init__(self):
         self.name = "The Holy Grail"
-        self.description = "The Holy Grail upholding the entire world."
+        self.description = "The Holy Grail upholding the entire balance."
         self.hp = 1
         self.damage = 0
